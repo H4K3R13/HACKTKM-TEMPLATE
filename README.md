@@ -2,9 +2,9 @@
 
 # Krishi Sahay - HACK4TKM
 
-KrishiSahay is a project that uses technology to help farmers in India. It focuses on identifying crop diseases quickly and providing solutions that are good for the environment. The project uses a WhatsApp bot because many farmers in India have smartphones and can easily use WhatsApp. The goal is to empower farmers and promote sustainable agriculture. 
+KrishiSahay is a project that uses technology to help farmers in India. It focuses on identifying crop diseases quickly and providing solutions that are good for the environment. The project uses a WhatsApp bot because many farmers in India have smartphones and can easily use WhatsApp. The goal is to empower farmers and promote sustainable agriculture.
 
-![GITHUB-REPOSITORY](https://github.com/H4K3R13/KrishiSahay)
+[GITHUB-REPOSITORY](https://github.com/H4K3R13/KrishiSahay)
 
 ## Team Members
 
@@ -46,7 +46,9 @@ Embed video of project demo
 6. On the Domains page, click + Create Domain or + New Domain. (here everyone can start with [one free domain](https://ngrok.com/blog-post/free-static-domains-ngrok-users))
 
 #### Create `.env`
-create a  `.env` file inside python-whatsapp-bot directory
+
+create a `.env` file inside python-whatsapp-bot directory
+
 ```env
 ACCESS_TOKEN="<ACCESS_TOKEN>"
 
@@ -64,33 +66,45 @@ All the values can be found in the meta account
 ## How to Run
 
 ### Run locally
+
 Clone the repository
+
 ```bash
 https://github.com/H4K3R13/KrishiSahay.git
 ```
+
 Change the directory
+
 ```bash
 cd KrishiSahay
 ```
+
 Setup virtual env
+
 ```bash
 python3 -m python3 -m venv venv
 source venv/bin/activate
 ```
+
 Install the modules
+
 ```bash
 pip3 install -r requirements.txt
 ```
+
 Change directory to bots
+
 ```bash
 cd python-whatsapp-bot
 ```
+
 Run flask app
+
 ```bash
 flask --app run.py --debug run
 ```
 
-### Run ngrok 
+### Run ngrok
 
 Once your app is running successfully on localhost, let's get it on the internet securely using ngrok!
 
@@ -101,11 +115,11 @@ ngrok http 8000 --domain your-domain.ngrok-free.app
 8. ngrok will display a URL where your localhost application is exposed to the internet (copy this URL for use with Meta).
 
 ### Configure of Webhooks
+
 In the Meta App Dashboard, go to WhatsApp > Configuration, then click the Edit button.
+
 1. In the Edit webhook's callback URL popup, enter the URL provided by the ngrok agent to expose your application to the internet in the Callback URL field, with /webhook at the end (i.e. https://myexample.ngrok-free.app/webhook).
 2. Enter a verification token. This string is set up by you when you create your webhook endpoint. You can pick any string you like. Make sure to update this in your `VERIFY_TOKEN` environment variable.
-
-
 
 ## Other Links
 
