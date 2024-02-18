@@ -19,13 +19,14 @@ KrishiSahay is a project that uses technology to help farmers in India. It focus
 
 ## How it Works ?
 
-Explaining the working of project  
-Embed video of project demo
+[DEMO](https://youtube.com/shorts/Z3PhrI99rhQ?feature=share)
 
 ## Technologies used
 
 - flask
 - sqlite3
+- AI/ML
+- Tensorflow
 
 ## How to configure
 
@@ -123,4 +124,4 @@ In the Meta App Dashboard, go to WhatsApp > Configuration, then click the Edit b
 
 ## Other Links
 
-Provide any other links ( for eg. Wireframe , UI, Abstract, Presentation )
+[Presentation](https://drive.google.com/file/d/1jdGcqnBBMfPv0ovjnV8kqJdJP_kDLMHr/view?usp=sharing)
